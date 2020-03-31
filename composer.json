@@ -1,0 +1,28 @@
+{
+    "name": "dbout/wp-image",
+    "description": "Small Wordpress library to manage images",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dimitri BOUTEILLE",
+            "email": "bonjour@dimitri-bouteille.fr",
+            "homepage": "https://github.com/dimitriBouteille",
+            "role": "Developer"
+        }
+    ],
+    "keywords": ["wordpress", "wp", "image", "media", "size"],
+    "homepage": "https://github.com/dimitriBouteille/wp-image/",
+    "support": {
+        "issues": "https://github.com/dimitriBouteille/wp-image/issues"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dbout\\WpImage\\": "src/"
+        }
+    }
+}
